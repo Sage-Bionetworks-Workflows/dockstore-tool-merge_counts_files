@@ -1,0 +1,13 @@
+counts_files:
+  - class: File
+    path: ../data/SampleA.counts
+  - class: File
+    path: ../data/SampleB.counts
+  - class: File
+    path: ../data/SampleC.counts
+
+reference_file:
+  class: File
+  path: ../data/reference_library.csv
+
+output_prefix: AllSamples
